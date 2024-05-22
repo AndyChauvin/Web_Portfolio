@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li {
+    list-style: none;
+}
+
+.background>img {
+    width: auto;
+    height: 250px;
+    float: left;
+    margin:  0 30px 10px 0;
+}
+
+.emblem {
+    text-align: center;
+}
+
+.emblem>img {
+    width: 80px;
+    height: auto;
+    margin: 0 100px;
+}
+
+.skills-container li {
+    background-color: rgb(88, 85, 85);
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 30%;
+}
+
+.skills-container {
+    clear: left;
+    
+}
+
+
+
+  .jumbotron {
+    background-color: #6708b5;
+    color: #fff;
+    padding: 80px 20px;
+    margin-bottom: 0;
+  }
+
+ .background {
+    width: 100%;
+    text-align: justify;
+ }
+
+ .background>p {
+    padding: 40px;
+ }
+
+  #background, #skills, #enjoy, #contact {
+    margin-top: 100px;
+
+  }
+
+  #enjoy {
+    text-align: center;
+  }
+
+  #enjoy>h2 {
+    padding-bottom: 20px;
+  }
+
+  .enjoy-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: space-around;
+   
+  }
+
+
+
+.item img {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.item p {
+    text-align: left;
+    padding: 20px;
+}
+
+
+  .footer {
+    background-color: #6708b5;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 80px;
+  }
+
